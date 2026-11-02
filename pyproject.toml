@@ -13,10 +13,20 @@ description = "UniDepth: Universal Monocular Metric Depth Estimation"
 readme = "README.md"
 license = { text="Creatives Common BY-NC 4.0 license"}
 requires-python = ">=3.10.0"
-dynamic = ["dependencies"]
-
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
+# Dependencies were trimmed from requirements.txt, which is kept
+# unmodified, because not all deps are needed for inference, they might be tricky to install and might conflict with other projects.
+dependencies = [
+    "torch>=2.4.0",
+    "torchvision>=0.19.0",
+    "einops>=0.7.0",
+    "huggingface-hub>=0.22.0",
+    "matplotlib",
+    "numpy>=2.0.0",
+    "opencv-python",
+    "pillow>=10.2.0",
+    "scipy",
+    "timm",
+]
 
 [tool.setuptools.package-data]
 "*" = ["py.typed"]

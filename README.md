@@ -1,3 +1,9 @@
+# Why fork?
+This is Unidepth, but with deps trimmed down to simplify inference-only workflows, avoiding dependency conflicts.
+
+Specifically, this enables me to add this as a dependency to my own MDE project.
+
+
 [![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)
 [![arXiv](https://img.shields.io/badge/UniDepthV1%20arXiv-2403.18913-blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/2403.18913)
 [![ProjectPage](https://img.shields.io/badge/Project_Page-UniDepth-blue)](https://lpiccinelli-eth.github.io/pub/unidepth/)
