@@ -26,6 +26,7 @@ dependencies = [
     "pillow>=10.2.0",
     "scipy",
     "timm",
+    "wandb",
 ]
 
 [tool.setuptools.package-data]
